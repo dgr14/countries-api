@@ -6,6 +6,7 @@ import styled from 'styled-components'
 const ToggleBtn = styled.button`
     background-color: red;
     margin-right: 0.5rem;
+    
 `
 
 const Toggle = ({ theme, toggler }) => {

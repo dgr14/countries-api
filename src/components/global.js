@@ -16,7 +16,7 @@ export const GlobalStyles = createGlobalStyle`
 body {
     align-items: center;
     background: ${({ theme }) => theme.body };
-    color: ${({ theme}) => theme.text};
+    color: ${({ theme}) => theme.text };
     display: flex;
     flex-direction: columm;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
     padding: 0;
     transition: all 0.25s linear;
     boxShadow: ${({ theme }) => theme.boxShawdow}
-    fontFamily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    fontFamily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifkll;
 }
 
 
